@@ -1,4 +1,4 @@
-# Use this hook to configure devise mailer, warden hooks and so forth.
+ # Use this hook to configure devise mailer, warden hooks and so forth.
 # Many of these configuration options can be set straight in your model.
 Devise.setup do |config|
   # The secret key used by Devise. Devise uses this key to generate
@@ -159,7 +159,7 @@ Devise.setup do |config|
   # Email regex used to validate email formats. It simply asserts that
   # one (and only one) @ exists in the given string. This is mainly
   # to give user feedback and not to assert the e-mail validity.
-  config.email_regexp = /\A[^@\s]+@[^@\s]+\z/
+  config.email_regexp = /\A[^@]+@example\.com\z/
 
   # ==> Configuration for :timeoutable
   # The time you want to timeout the user session without activity. After this
